@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Template Agencia LiveSEO</title>
+</head>
+<body>
+    <div id="master" class="container-fluid">
+
+        <div id="row1" class="row">
+            <div id="sidebar" class="col col-2">
+                <div id="coluna1">
+                    <h1>HCODE</h1>
+                </div>
+                <div id="usuario">
+                    <img id="fotousuario" src="./imagens/user.png">   
+                    <span>Fulano Junior</span>
+                    <span>Online</span>
+                    
+                </div>
+                <div id="sidebarMenu">Menu</div>
+                <div id="sidebarusuarios" ><i class="fas fa-users"></i> <span>Usuários</span> </div>
+            </div>
+            <div id="corpo" class="col col-10">
+                 <div id="coluna2">
+                    <nav class="navbar">
+                        <a class="navbar-brand abs" href="#"><i class="fas fa-bars"></i></a>                    
+                        <div id="divfoto"><img id="fotousuariobar" src="./imagens/user.png"> <span>Fulano Junior</span></div>
+                    </nav>
+                 </div>
+                 <div  class="d-flex p-2 align-items-center" id="barrahome">
+                    <div class="p-2"><h2>Usuários</h2></div>
+                    <div class="p-2">Gerenciamento de usuarios do sistema</div>
+                    <div class="ml-auto p-2">
+                        <i class="fas fa-home"></i>home<i class="fas fa-chevron-right"></i>Usuários
+                    </div>
+
+                 </div>
+                 <div class="row">
+                     <div class="col col-8">
+                         <div id="tabela">
+                            <h3>Lista de Usuários</h3>
+                            <table class="table table-striped">                                
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Foto</th>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">E-mail</th>
+                                        <th scope="col">Admin</th>
+                                        <th scope="col">Criado em</th>
+                                        <th scope="col">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><i class="fas fa-user-ninja"></i></th>
+                                        <td>Fulano</td>
+                                        <td>fulano@hcode.com.br</td>
+                                        <td>sim</td>
+                                        <td>02/04/2018</td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Editar</button><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fas fa-user-ninja"></i></th>
+                                        <td>Fulano</td>
+                                        <td>fulano@hcode.com.br</td>
+                                        <td>sim</td>
+                                        <td>02/04/2018</td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Editar</button><button type="button"
+                                                class="btn btn-danger btn-sm">Excluir</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="fas fa-user-ninja"></i></th>
+                                        <td>Fulano</td>
+                                        <td>fulano@hcode.com.br</td>
+                                        <td>sim</td>
+                                        <td>02/04/2018</td>
+                                        <td><button type="button" class="btn btn-primary btn-sm">Editar</button><button type="button"
+                                                class="btn btn-danger btn-sm">Excluir</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                         </div>
+                     </div>
+                     <div class="col">
+                         <div class="row">
+                             <div class="col">
+                                 <div id="card1" class="card" style="width: 10rem;">
+                                <div class="card-body">
+                                    <img id="personplus" src="./imagens/person-plus-fill.svg" alt="">
+                                    <h5 class="card-title">44</h5>
+                                    
+                                    <p class="card-text">Novos Usuarios</p>
+                                </div>
+                            </div></div>
+                             <div class="col">
+                                 <div id="card2" class="card" style="width: 10rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">15</h5>
+                                    <p class="card-text">Administradores</p>
+                                </div>
+                            </div>
+                        </div>
+                         </div>
+                         <div id="formulario">
+                            <form>
+                                <h3>Novo Usuário</h3>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="nome">
+                                </div>
+                                <div>
+                                    <label for="nome" class="form-label">Genero</label>
+                                    <div class="form-check">
+                                    
+                                        <input class="form-check-input" type="radio" name="marcadorGenero" id="marcadorGenero1">
+                                        <label class="form-check-label" for="marcadorGenero1">
+                                            Masculino
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="marcadorGenero" id="marcadorGenero2" checked>
+                                        <label class="form-check-label" for="marcadorGenero2">
+                                            Feminino
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                     <label for="nascimento">Nascimento</label>                                 
+                                     <input type="date" class="form-control" id="nascimento" />
+                                </div>
+                                <div class="mb-3">
+                                    <div class="datalist-holder">
+                                        <label for="country">País</label>
+                                        <input list="country" name="country" class="datalist-input form-control"/>
+                                        <datalist id="country">
+                                            <option value="Afghanistan" />
+                                            <option value="Albania" />
+                                            <option value="Algeria" />
+                                            <option value="American Samoa" />
+                                            <option value="Andorra" />
+                                            //...
+                                            //...
+                                        </datalist>
+                                    </div>
+                                </div>
+
+                                  
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="uploadfoto" class="form-label">Foto</label>
+                                     <input type="file" class="form-control" id="uploadfoto">
+                                </div>
+
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Administrador</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Salvar</button>
+                            </form>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+           
+        </div>
+
+
+        
+
+
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

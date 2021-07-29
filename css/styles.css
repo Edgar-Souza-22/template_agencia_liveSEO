@@ -1,0 +1,135 @@
+@import url(./bootstrap.min.css);
+
+html body {
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+    font-size: large;
+    padding: 1rem;
+    margin: 0;
+}
+
+#usuario {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fotousuario {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;   
+}
+
+.navbar {
+    height: 3rem;
+    background-color: rgb(60,141,188);
+    
+}
+
+.fa-bars {
+    padding-left: 1rem;
+    color: #fff;
+}
+
+#fotousuariobar {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px; 
+}
+
+#divfoto {
+    padding-right: 2rem;
+    color: #fff;
+    padding-right: 2rem;
+}
+
+#sidebar {
+    background-color: rgb(34,45,59);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#sidebarusuarios {
+    text-align: left;
+    background-color: rgb(30, 39, 44);
+    padding: 10px;
+
+}
+
+#corpo {
+    padding: 0;
+}
+
+#sidebarMenu {
+    text-align: left;
+    color: rgb(62,75,81);
+    background-color: rgb(26,34,37);
+    padding: 10px;
+}
+
+
+#coluna1 {
+    background-color: rgb(55, 126, 168);
+    color: #fff;
+    height: 3rem;
+}
+
+#coluna2 {
+    justify-content: center;
+}
+
+.barraUsuario {
+    height: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+}
+
+#gerenciamento1 {
+    font-size: 15px;
+    padding-left: 0;
+}
+
+#gerenciamento2 {
+    font-size: 15px;
+    padding-left: 0;
+}
+
+#formulario {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-top: solid green 2px;
+    font-size: 1em;
+}
+
+#tabela {
+    background-color: #fff;
+    margin-left: 1rem;
+}
+
+.table {
+    font-size: 0.8rem;
+}
+
+#card1 {
+    background-color: rgb(0, 166, 90);
+    color: #fff;
+}
+
+#card2 {
+    background-color: rgb(246, 156, 17);
+    color: #fff;
+}
+
+
+#personplus {
+    opacity: 0.3;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}

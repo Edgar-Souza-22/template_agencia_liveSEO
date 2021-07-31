@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="master" class="container-fluid">
-
+ <!-- col-lg-2 col-md-2 col-xs-4-->
         <div id="row1" class="row">
             <div id="sidebar" class="col col-2">
                 <div id="coluna1" class="col">
@@ -36,10 +36,12 @@
                      <span>Usuários</span>
                 </div>
             </div>
-            <div id="corpo" class="col col-10">
+
+            <!-- col-10-->
+            <div id="corpo" class="col">
                  <div id="coluna2">
                     <nav class="navbar">
-                        <a class="navbar-brand abs" href="#"><i class="fas fa-bars"></i></a>                    
+                        <a class="navbar-brand abs" href="#" onclick="myFunction()"><i class="fas fa-bars"></i></a>                    
                         <div id="divfoto"><img id="fotousuariobar" class="bg-light" src="./imagens/user.png"> <span>Fulano Junior</span></div>
                     </nav>
                  </div>
@@ -432,19 +434,14 @@
                      </div>
                  </div>
             </div>
-           
         </div>
-
-
-        
-
-
-
     </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="./js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
